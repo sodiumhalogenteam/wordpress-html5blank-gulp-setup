@@ -2,7 +2,7 @@
 /* global $: true */
 /* eslint-disable */
 'use strict';
-var browsersync = require('browser-sync').create();
+var browserSync = require('browser-sync').create();
 var gulp = require('gulp'),
   /** @type {Object} Loader of Gulp plugins from `package.json` */
   $ = require('gulp-load-plugins')(),
